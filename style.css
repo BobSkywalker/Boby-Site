@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('Fontes/Minecraft.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fontes/Roboto.ttf') format('truetype');
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+header {
+    padding: 5px;
+    font-family: 'Minecraft', sans-serif;
+    background-color: #85F51B;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    
+}
+
+nav > a {
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #0a19e9;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.521);
+}
+
+img{
+    min-width: 400px;
+    max-width: 600px;
+
+}
+
+p{
+    text-indent: 15px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    background-color: #F59327;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+}
+
+main{
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 1px 1px 5px black;
+}
+
+body{
+    background-color: rgba(123, 245, 112, 0.466);
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Minecraft', sans-serif;
+    color: brown;
+    text-shadow: 1px 1px 15px ;
+    padding: 5px;
+}
+
+div{
+    padding: 10px;
+    list-style-position: inside;
+    outline: solid;
+}
+
+#video {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
